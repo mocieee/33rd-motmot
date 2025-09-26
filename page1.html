@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>33rd Motmot</title>
+    <link rel="stylesheet" href="styles/backbutt.css">
+</head>
+<body>
+   <div id="login-screen">
+        <h1>What's the Password?</h1>
+        <input type="password" id="passcode-input" placeholder="Enter Passcode Here" onkeydown="checkKey(event)">
+        <button id="enter-button" onclick="checkPasscode()"> ENTER</button>
+        <div id="error-msg" class="error-message">Incorrect Passcode. Try again!</div>
+    </div>
+
+    <script src="password.js"></script>
+
+</body>
+</html>
